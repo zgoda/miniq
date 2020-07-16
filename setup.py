@@ -91,10 +91,5 @@ setup(
         'test': test_reqs,
         'docs': docs_reqs,
     },
-    entry_points={
-        'console_scripts': [
-            'miniq=miniq.cli:cli',
-        ]
-    },
     python_requires='~=3.7',
 )
