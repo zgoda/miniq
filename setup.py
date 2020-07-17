@@ -46,7 +46,7 @@ setup(
     ],
     install_requires=[
         'Flask',
-        'Peewee',
+        'Pony',
         'python-dotenv',
     ],
     python_requires='~=3.7',
