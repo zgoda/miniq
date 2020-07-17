@@ -22,44 +22,6 @@ def find_version(*where):
 
 long_description = read('README.rst')
 
-base_reqs = [
-    'Flask',
-    'Peewee',
-    'python-dotenv',
-]
-
-test_reqs = [
-    'pytest',
-    'pytest-mock',
-    'pytest-cov',
-    'pytest-factoryboy',
-    'pytest-flask',
-]
-
-docs_reqs = [
-    'Sphinx',
-]
-
-dev_reqs = [
-    'ipython',
-    'ipdb',
-    'pip',
-    'setuptools<49.2',
-    'wheel',
-    'flake8',
-    'flake8-builtins',
-    'flake8-bugbear',
-    'flake8-mutable',
-    'flake8-comprehensions',
-    'pep8-naming',
-    'dlint',
-    'rstcheck',
-    'rope',
-    'isort',
-    'watchdog',
-    'flask-shell-ipython',
-] + test_reqs + docs_reqs
-
 setup(
     name='miniq',
     version=find_version('src', 'miniq', '_version.py'),
@@ -82,14 +44,10 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    install_requires=base_reqs,
-    extras_require={
-        'prod': [
-            'gunicorn',
-        ],
-        'dev': dev_reqs,
-        'test': test_reqs,
-        'docs': docs_reqs,
-    },
+    install_requires=[
+        'Flask',
+        'Peewee',
+        'python-dotenv',
+    ],
     python_requires='~=3.7',
 )
