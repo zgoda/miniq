@@ -1,5 +1,5 @@
-from pony.orm import Database
 from pony.flask import Pony
+from pony.orm import Database
 
 from . import config
 from .utils import Application
