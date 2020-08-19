@@ -24,7 +24,7 @@ long_description = read('README.rst')
 
 setup(
     name='miniq',
-    version=find_version('src', 'miniq', '_version.py'),
+    version=find_version('src', 'miniq', '__init__.py'),
     author='Jarek Zgoda',
     author_email='jarek.zgoda@gmail.com',
     description='MiniQ, minimal Flask application',

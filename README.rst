@@ -3,7 +3,7 @@ MiniQ
 
 Minimal template for Flask application. And I say minimal - no blueprints, no application factory, just couple views and some configuration but modularized for easier maintenance.
 
-This is implemented as follow-up to `Charles Leifer blog post <https://charlesleifer.com/blog/structuring-flask-apps-a-how-to-for-those-coming-from-django/>`_ on structuring simple Flask applications. This post has been written in 2013 and although Flask did not change much since, other parts of Flask environment did. Many things now look different, and many tasks that seemed not worth the hassle now are much more approachable.
+This is implemented as follow-up to `Charles Leifer blog post <https://charlesleifer.com/blog/structuring-flask-apps-a-how-to-for-those-coming-from-django/>`_ on structuring simple Flask applications. This post has been written in 2013 and although Flask did not change much since, other parts of Flask (and Python) environment did. Many things now look different, and many tasks that seemed not worth the hassle now are much more approachable.
 
 So this is 2020 version of simplest Flask application *done right*:
 
