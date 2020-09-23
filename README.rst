@@ -8,6 +8,7 @@ This is implemented as follow-up to `Charles Leifer blog post <https://charlesle
 So this is 2020 version of simplest Flask application *done right*:
 
 * application is installable with simple ``pip install -U -e .``
+* install ``wheel`` package and it becomes *packageable* into ``whl`` with ``python setup.py bdist_wheel``
 * application loads configuration from both shared ``.flaskenv`` and private ``.env`` files
 * test-ready configuration in ``setup.cfg``
 * code layout that requires installation before test, and tests installed code
